@@ -133,12 +133,12 @@
       const SearchFunction = function () {
         const myInput = document.getElementById("inputField").value;
         const mySelect = document.getElementById("select").value;
-        console.log(mySelect, myInput);
+        
 
         const selected = data.filter((user) =>
           user[mySelect].toLowerCase().includes(myInput.toLowerCase())
         );
-        console.log(selected,user[mySelect]);
+        console.log(selected);
         
       };
     </script>
